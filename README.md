@@ -1,36 +1,40 @@
-# IRCTC-Train-Booking-System
+# 🚆 IRCTC Train Booking System
 
-A Java-based CLI project for booking trains and managing bookings.
+A console-based Train Booking System inspired by the IRCTC platform, built to simulate real-world railway reservation operations such as ticket booking, cancellation, and passenger management.
 
-**Features**
-* Book trains based on source and destination stations
-* View bookings for a specific user
-* Cancel bookings
-* Search trains based on source and destination stations
+---
 
-**Usage**
-* Clone the repository and navigate to the project directory.
-* Compile the project using **javac *.java**.
-* Run the project using **java App**.
+## 📌 Project Overview
 
-**Requirements**
+The IRCTC Train Booking System is designed to demonstrate core programming concepts including:
 
-* Java 8 or later
-* Maven or Gradle for building and dependencies
+- Data structures
+- Object-oriented programming
+- User input handling
+- Basic ticket management logic
 
-**Contributing**
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+This project simulates how railway reservation systems manage seat availability and passenger records.
 
-**Acknowledgments**
+---
 
-* IRCTC for providing the train data
-* Gradle for building and dependencies
+## ✨ Features
 
-**Issues**
-Please report any issues or bugs in the project.
+- 🎟 Book Train Tickets
+- ❌ Cancel Tickets
+- 📋 View Booked Tickets
+- 👤 Passenger Details Management
+- 💺 Seat Availability Tracking
+- 🔁 Waitlist Handling (if implemented)
+- 🖥 Console-Based Interactive Menu
 
-**Future Development**
+---
 
-* Implementing more features such as booking seats and checking availability
-* Improving the user interface and user experience
-* Adding more error handling and validation
+## 🛠 Tech Stack
+
+- **Language:** Java  
+- **Concepts Used:** OOP, Collections, Conditional Logic, Loops  
+- **Execution Type:** Console Application  
+
+---
+
+## 📂 Project Structure
