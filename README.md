@@ -47,9 +47,6 @@ IRCTC-Train-Booking-System/
 ├── Train.java
 └── README.md
 
-
-*(Structure may vary slightly based on your implementation)*
-
 ---
 
 ## ⚙️ How It Works
@@ -79,7 +76,6 @@ IRCTC-Train-Booking-System/
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/Rudraprasad2302/IRCTC-Train-Booking-System.git
 cd IRCTC-Train-Booking-System
 
