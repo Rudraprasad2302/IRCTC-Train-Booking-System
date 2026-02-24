@@ -39,6 +39,7 @@ This project simulates how railway reservation systems manage seat availability 
 
 ## 📂 Project Structure
 
+```
 IRCTC-Train-Booking-System/
 │
 ├── Main.java
@@ -46,8 +47,7 @@ IRCTC-Train-Booking-System/
 ├── Ticket.java
 ├── Train.java
 └── README.md
-
----
+```
 
 ## ⚙️ How It Works
 
