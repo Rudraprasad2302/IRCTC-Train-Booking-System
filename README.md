@@ -1,39 +1,36 @@
-# 🚆 IRCTC Train Booking System
+# 🚆 IRCTC Train Booking System (Java)
 
-A console-based Train Booking System inspired by the IRCTC platform, built to simulate real-world railway reservation operations such as ticket booking, cancellation, and passenger management.
+A console-based Train Reservation System built in Java that simulates real-world railway booking operations including ticket booking, cancellation, and seat management.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Objective
 
-The IRCTC Train Booking System is designed to demonstrate core programming concepts including:
+To implement a real-world ticket booking system using:
 
-- Data structures
-- Object-oriented programming
-- User input handling
-- Basic ticket management logic
-
-This project simulates how railway reservation systems manage seat availability and passenger records.
+- Object-Oriented Programming
+- Data Structures
+- Conditional Logic
+- Console-based interaction
 
 ---
 
 ## ✨ Features
 
-- 🎟 Book Train Tickets
-- ❌ Cancel Tickets
-- 📋 View Booked Tickets
-- 👤 Passenger Details Management
+- 🎟 Book Ticket
+- ❌ Cancel Ticket
+- 📋 View Bookings
+- 👤 Passenger Management
 - 💺 Seat Availability Tracking
-- 🔁 Waitlist Handling (if implemented)
-- 🖥 Console-Based Interactive Menu
+- 🔁 Waiting List Handling (if implemented)
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Language:** Java  
-- **Concepts Used:** OOP, Collections, Conditional Logic, Loops  
-- **Execution Type:** Console Application  
+- **Language:** Java
+- **Execution:** Console Application
+- **Concepts:** OOP, Collections, Control Flow
 
 ---
 
@@ -49,42 +46,56 @@ IRCTC-Train-Booking-System/
 └── README.md
 ```
 
-## ⚙️ How It Works
-
-1. User selects an option from the menu:
-   - Book Ticket
-   - Cancel Ticket
-   - View Bookings
-   - Exit
-
-2. System checks seat availability.
-
-3. If seats are available:
-   - Ticket is confirmed.
-   - Passenger details are stored.
-
-4. If seats are full:
-   - Ticket moves to waiting list (if implemented).
-
-5. On cancellation:
-   - Seat is freed.
-   - Waiting list passenger (if any) gets confirmed.
-
 ---
 
-## ▶️ How to Run the Project
+## ▶️ How to Run
 
-### 1️⃣ Clone the Repository
+### Clone Repository
 
+```
 git clone https://github.com/Rudraprasad2302/IRCTC-Train-Booking-System.git
 cd IRCTC-Train-Booking-System
+```
 
-### 2️⃣ Compile Java Files
+### Compile
 
+```
 javac *.java
+```
 
-### 3️⃣ Run the Application
+### Run
 
+```
 java Main
+```
 
 ---
+
+## 🧠 Concepts Implemented
+
+- Class & Object modeling
+- Encapsulation
+- Seat allocation logic
+- Dynamic ticket management
+- Basic system design
+
+---
+
+## 🚀 Future Improvements
+
+- GUI version
+- Database integration
+- Online payment simulation
+- Web version using Spring Boot
+
+---
+
+## 👤 Author
+
+**Rudra Prasad**  
+📧 rudraprasad2302@gmail.com  
+🔗 GitHub: https://github.com/Rudraprasad2302  
+
+---
+
+⭐ If you like this project, consider giving it a star!
