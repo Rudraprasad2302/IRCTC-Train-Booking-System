@@ -46,3 +46,49 @@ IRCTC-Train-Booking-System/
 ├── Ticket.java
 ├── Train.java
 └── README.md
+
+
+*(Structure may vary slightly based on your implementation)*
+
+---
+
+## ⚙️ How It Works
+
+1. User selects an option from the menu:
+   - Book Ticket
+   - Cancel Ticket
+   - View Bookings
+   - Exit
+
+2. System checks seat availability.
+
+3. If seats are available:
+   - Ticket is confirmed.
+   - Passenger details are stored.
+
+4. If seats are full:
+   - Ticket moves to waiting list (if implemented).
+
+5. On cancellation:
+   - Seat is freed.
+   - Waiting list passenger (if any) gets confirmed.
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Rudraprasad2302/IRCTC-Train-Booking-System.git
+cd IRCTC-Train-Booking-System
+
+### 2️⃣ Compile Java Files
+
+javac *.java
+
+### 3️⃣ Run the Application
+
+java Main
+
+---
